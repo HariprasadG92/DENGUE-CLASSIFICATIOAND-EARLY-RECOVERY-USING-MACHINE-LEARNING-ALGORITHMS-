@@ -1,13 +1,15 @@
 Dengue Haemorrhagic Fever (DHF) poses a significant public health challenge, especially in regions where the Aedes mosquito acts as a vector for the dengue virus. Accurate classification of DHF stages is crucial for tailored clinical management. In this paper, we introduce a novel framework that leverages Support Vector Machine (SVM) and Random Forest algorithms for categorizing DHF patients into three distinct stages: Early Febrile, Critical, and Recovery. The swift and precise identification of these stages is essential for ensuring timely and appropriate medical interventions, ultimately leading to improved patient outcomes. SVM and Random Forest are chosen for their proficiency in handling complex data, and through rigorous feature engineering and data preprocessing, we extract critical information for precise discrimination between DHF phases. SVM and Random Forest were selected for their ability to handle complex clinical data effectively, and through meticulous feature engineering and data preprocessing, we extracted critical information necessary for accurate discrimination between DHF phases.  Experimental results demonstrate the effectiveness of our framework in classification, offering a data-driven approach to DHF management, with potential profound implications for public health, particularly in regions prone to recurrent dengue outbreaks.
 
 Algorithmic Approaches
-i.	Support Vector Machine (SVM): 
+
+i.	Support Vector Machine (SVM):
+
 ![image](https://github.com/user-attachments/assets/260e9d2b-7c84-40f3-85b4-22a2dc0665d3)
 
   Figure represents the SVM which is a powerful algorithm used for binary and multiclass classification tasks. In our research, SVM was employed to classify DHF cases into the predefined stages of Early Febrile, Critical, and Recovery. SVM maximizes the margin between different classes, offering robust classification results. Parameters were tuned through cross-validation to optimize SVM's performance.
  
-Figure 2: SVM Algorithm 
 ii.	Random Forest 
+
 ![image](https://github.com/user-attachments/assets/fee4f6be-74d7-4d6a-a003-783043207908)
 
   Figure represents the Random Forest which is an ensemble learning algorithm that leverages the strength of decision trees. It is well-suited for handling large and diverse datasets. In our study, Random Forest was employed for DHF classification, and its ensemble nature enabled effective feature selection and classification accuracy. Parameters were fine-tuned to optimize Random Forest's performance.
